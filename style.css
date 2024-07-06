@@ -1,0 +1,14 @@
+* {
+    margin: auto;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(244, 239, 232);
+}
+#index-header {
+    text-align: center;
+    color: #460303;
+    font-size: 36px;
+}
+.index-link {
+    background-color: #ece3d9;
+    color: #460303;
+}
