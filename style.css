@@ -4,6 +4,7 @@
     background-color: rgb(244, 239, 232);
     color: rgb(151, 50, 50);
     padding: 0.5rem;
+    box-sizing: border-box;
 }
 #index-header {
     text-align: center;
@@ -12,4 +13,7 @@
 }
 ul, ol {
     padding-left: 2rem;
+}
+.go-back {
+font-size: 14px;
 }
