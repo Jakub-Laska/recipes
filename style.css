@@ -1,9 +1,7 @@
 * {
     margin: auto;
     font-family: Verdana, sans-serif;
-    background-color: #f4efe8;
     color: #973232;
-    padding: 0.5rem;
     box-sizing: border-box;
 }
 #index-header {
@@ -15,11 +13,28 @@ ul, ol {
     padding-left: 2rem;
 }
 .go-back {
-font-size: 14px;
-padding: 1rem;
-margin: 0 25rem;
-display: block;
-text-align: center;
-border: 2px solid #973232;
-border-radius: 5px;
+    font-size: 14px;
+    padding: 1rem;
+    margin: 0 25rem;
+    display: block;
+    text-align: center;
+    border: 2px solid #973232;
+    border-radius: 5px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    border: 2px dotted #1515c5d3;
+    padding: 1rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    background-color: #5f5fe6d3;
+}
+#nav-left {
+    flex: 1;
+}
+nav li {
+    padding: 1rem 2rem;
+    border: 2px dotted #1515c5d3;
+    border-radius: 1rem;
 }
