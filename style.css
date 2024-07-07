@@ -3,13 +3,13 @@
     font-family: Verdana, sans-serif;
     background-color: rgb(244, 239, 232);
     color: rgb(151, 50, 50);
-    padding: 5px;
+    padding: 0.5rem;
 }
 #index-header {
     text-align: center;
     font-size: 36px;
-    padding: 20px;
+    padding: 2rem;
 }
 ul, ol {
-    padding-left: 20px;
+    padding-left: 2rem;
 }
