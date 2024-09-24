@@ -22,7 +22,7 @@ body {
     min-height: 45vw;
     border-radius: 4rem;
     box-shadow: 0 0 15px #000000cb;
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
