@@ -58,10 +58,20 @@ body {
     flex-wrap: wrap;
     height: 80%;
     border-radius: 2rem;
-    background-color: whitesmoke;
-    box-shadow: 0 0 5px rgba(245, 245, 245, 0.709);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px #0000007a;
+    color: aliceblue;
+    text-shadow: 0 0 10px #000000cb;
+    position: relative;
 }
 .cards:hover {
-    opacity: 60%;
+    transition: .95s;
+    filter: brightness(.6);
     cursor: pointer;
+}
+.cardOne {
+    background-image: url(images/cardOne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
