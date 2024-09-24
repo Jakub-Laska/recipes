@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 .cards {
     flex: 1;
@@ -52,49 +52,6 @@ body {
     background-color: whitesmoke;
     box-shadow: 0 0 5px rgba(245, 245, 245, 0.709);
 }
-
-
-
-
-
-
-
-
-
-
-
-/* work on background image */
-/* body {
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-/* }
-#container {
-    display: flex;
-    max-width: 1000px;
-    box-shadow: 0px 0px 8px rgb(105, 105, 105);
-    margin-top: 10%;
-    padding: 1rem;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    border-radius: 1rem;
-    background-color: #0000003b;
+.cards:hover {
+    opacity: 60%;
 }
-.card {
-    flex: 1;
-    text-align: center;
-    padding: 8rem 4rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.295);
-
-}
-.card:hover {
-    box-shadow: 2px 2px 8px #FF6F61;
-}
-.lol {
-    color: 
-#FF6F61
-#FFD166
-#2A9D8F} */ */
