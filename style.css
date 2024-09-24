@@ -1,16 +1,76 @@
 * {
-    margin: auto;
+    margin: 0;
     font-family: Verdana, sans-serif;
     box-sizing: border-box;
 }
-/* work on background image */
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 100vh;
+    align-items: center;
+}
+#header, #footer {
+    padding: 1.5rem 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+#heroFirst {
+    min-width: 90vw;
+    min-height: 45vw;
+    border-radius: 4rem;
+    box-shadow: 0 0 15px #000000cb;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroFirstCards {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    border-radius: 4rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px #000000cb;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.cards {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 80%;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px rgba(245, 245, 245, 0.709);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* work on background image */
+/* body {
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-}
+/* }
 #container {
     display: flex;
     max-width: 1000px;
@@ -37,4 +97,4 @@ body {
     color: 
 #FF6F61
 #FFD166
-#2A9D8F}
+#2A9D8F} */ */
