@@ -18,7 +18,7 @@ body {
     width: 100vw;
 }
 #heroFirst {
-    min-width: 90vw;
+    min-width: 95vw;
     min-height: 45vw;
     border-radius: 4rem;
     box-shadow: 0 0 15px #000000cb;
@@ -27,15 +27,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#heroFirstLabel {
+    margin-bottom: 5rem;
+    color: aliceblue;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #000000cb;
+    text-transform: capitalize;
+    letter-spacing: 2px;
 }
 #heroFirstCards {
     width: 80%;
     height: 60%;
     display: flex;
     border-radius: 4rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #00000066;
     box-shadow: 0 0 10px #000000cb;
     justify-content: center;
     align-items: center;
@@ -54,4 +63,5 @@ body {
 }
 .cards:hover {
     opacity: 60%;
+    cursor: pointer;
 }
