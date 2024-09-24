@@ -62,10 +62,9 @@ body {
     box-shadow: 0 0 5px #0000007a;
     color: aliceblue;
     text-shadow: 0 0 10px #000000cb;
-    position: relative;
 }
 .cards:hover {
-    transition: .95s;
+    transition: .9s;
     filter: brightness(.6);
     cursor: pointer;
 }
