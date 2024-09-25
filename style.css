@@ -96,6 +96,7 @@ body {
   height: 600px;
   margin-top: 8.5rem;
   background-color: #fcaa67c5;
+  box-shadow: 0 0 15px #00000088;
 }
 #heroSecondContainer {
   display: flex;
@@ -105,10 +106,11 @@ body {
 }
 .heroSecondBox {
   background-color: rgba(0, 0, 0, 0.555);
-  border: solid black 2px;
   padding: 2rem;
   height: 350px;
   flex: 1;
+  border-radius: 2rem;
+  box-shadow: 0 0 15px #00000088;
 }
 .bigger {
     flex: 3;
