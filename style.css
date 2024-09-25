@@ -18,8 +18,8 @@ body {
     width: 100vw;
 }
 #heroFirst {
-    min-width: 95vw;
-    min-height: 45vw;
+    max-width: 95vw;
+    min-height: 40vw;
     border-radius: 4rem;
     box-shadow: 0 0 15px #000000cb;
     background-image: url(images/background.jpg);
@@ -85,4 +85,10 @@ body {
 }
 .cardTwo {
     background-image: url(images/cardTwo.jpg);
+}
+.cardThree {
+    background-image: url(images/cardThree.jpg);
+}
+.cardFour {
+    background-image: url(images/cardFour.jpg);
 }
