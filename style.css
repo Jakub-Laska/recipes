@@ -1,94 +1,120 @@
 * {
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: aliceblue;
-    height: 100vh;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  align-items: center;
 }
-#header, #footer {
-    padding: 1.5rem 6.5rem;
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
+#header,
+#footer {
+  padding: 1.5rem 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 #heroFirst {
-    max-width: 95vw;
-    min-height: 40vw;
-    border-radius: 4rem;
-    box-shadow: 0 0 15px #000000cb;
-    background-image: url(images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  max-width: 95%;
+  min-height: 800px;
+  border-radius: 4rem;
+  box-shadow: 0 0 15px #000000cb;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #heroFirstLabel {
-    margin-bottom: 5rem;
-    color: aliceblue;
-    font-size: 3rem;
-    text-shadow: 0 0 10px #000000cb;
-    text-transform: capitalize;
-    letter-spacing: 2px;
+  margin-bottom: 5rem;
+  color: aliceblue;
+  font-size: 3rem;
+  text-shadow: 0 0 10px #000000cb;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 #heroFirstCards {
-    width: 80%;
-    height: 60%;
-    display: flex;
-    border-radius: 4rem;
-    background-color: #00000066;
-    box-shadow: 0 0 10px #000000cb;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 4rem;
+  width: 80%;
+  height: 500px;
+  display: flex;
+  border-radius: 4rem;
+  background-color: #00000088;
+  box-shadow: 0 0 10px #000000cb;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 4rem;
 }
 .cards {
-    flex: 1;
-    padding: 2rem;
-    text-align: center;
-    flex-wrap: wrap;
-    height: 80%;
-    border-radius: 2rem;
-    background-color: rgba(0, 0, 0, 0.316);
-    box-shadow: 0 0 5px #0000007a;
-    display: flex;
-    align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 80%;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.316);
+  box-shadow: 0 0 5px #0000007a;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cardLabel {
-    color: rgba(240, 248, 255, 0.937);
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-shadow: 0 0 5px #000000e0;
-    margin-bottom: 25%;
+  color: rgba(240, 248, 255, 0.937);
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px #000000e0;
+  margin-bottom: 25%;
 }
 .cards:hover {
-    cursor: pointer;
-    background-blend-mode: color;
-    transition: .9s;
+  cursor: pointer;
+  background-blend-mode: color;
+  transition: 0.9s;
 }
 .cardOne {
-    background-image: url(images/cardOne.jpg);
+  background-image: url(images/cardOne.jpg);
 }
 .cardTwo {
-    background-image: url(images/cardTwo.jpg);
+  background-image: url(images/cardTwo.jpg);
 }
 .cardThree {
-    background-image: url(images/cardThree.jpg);
+  background-image: url(images/cardThree.jpg);
 }
 .cardFour {
-    background-image: url(images/cardFour.jpg);
+  background-image: url(images/cardFour.jpg);
+}
+#heroSecond {
+  width: 100%;
+  height: 600px;
+  margin-top: 8.5rem;
+  background-color: #fcaa67c5;
+}
+#heroSecondContainer {
+  display: flex;
+  padding: 1.5rem 6.5rem;
+  gap: 8rem;
+  margin-top: 4rem;
+}
+.heroSecondBox {
+  background-color: rgba(0, 0, 0, 0.555);
+  border: solid black 2px;
+  padding: 2rem;
+  height: 350px;
+  flex: 1;
+}
+.bigger {
+    flex: 3;
+}
+#heroSecondRight {
+    display: flex;
+    flex: 1;
+    gap: 3rem;
 }
