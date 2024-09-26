@@ -16,12 +16,12 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-#heroFirst {
-  max-width: 95%;
+.hero {
+  width: 90%;
   min-height: 800px;
+  margin: 0 6.5rem;
   border-radius: 4rem;
   box-shadow: 0 0 15px #000000cb;
-  background-image: url(images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-#heroFirstLabel {
+.heroFirst {
+  background-image: url(images/background.jpg);
+}
+.heroThird {
+  background-image: url(images/backgroundTwo.jpg);
+}
+.heroThird {
+  margin-top: 8.5rem;
+}
+.heroLabel {
   margin-bottom: 5rem;
   color: aliceblue;
   font-size: 3rem;
@@ -38,7 +47,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 2px;
 }
-#heroFirstCards {
+.heroCards {
   width: 80%;
   height: 500px;
   display: flex;
@@ -61,10 +70,12 @@ body {
   box-shadow: 0 0 5px #0000007a;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .cardLabel {
   color: rgba(240, 248, 255, 0.937);
   text-transform: uppercase;
@@ -91,6 +102,18 @@ body {
 .cardFour {
   background-image: url(images/cardFour.jpg);
 }
+.cardFive {
+  background-image: url(images/cardFive.jpg);
+}
+.cardSix {
+  background-image: url(images/cardSix.jpg);
+}
+.cardSeven {
+  background-image: url(images/cardSeven.jpg);
+}
+.cardEight {
+  background-image: url(images/cardEight.jpg);
+}
 #heroSecond {
   width: 100%;
   height: 600px;
@@ -100,12 +123,12 @@ body {
 }
 #heroSecondContainer {
   display: flex;
-  padding: 1.5rem 6.5rem;
+  padding: 1.5rem 8.5rem;
   gap: 8rem;
   margin-top: 4rem;
 }
 .heroSecondBox {
-  background-color: rgba(0, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.301);
   padding: 2rem;
   height: 350px;
   flex: 1;
@@ -113,10 +136,10 @@ body {
   box-shadow: 0 0 15px #00000088;
 }
 .bigger {
-    flex: 3;
+  flex: 3;
 }
 #heroSecondRight {
-    display: flex;
-    flex: 1;
-    gap: 3rem;
+  display: flex;
+  flex: 1;
+  gap: 3rem;
 }
