@@ -11,10 +11,20 @@ body {
 }
 #header,
 #footer {
-  padding: 1.5rem 6.5rem;
+  padding: 0 6.5rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+}
+#header {
+  /* border-bottom: inset 2px blue; */
+  margin-bottom: 2rem;
+  background-color: rgba(128, 128, 0, 0.315);
+  box-shadow: 0 0 10px #000000cb;
+}
+#headerLogo {
+  width: 40%;
 }
 .hero {
   width: 90%;
@@ -118,7 +128,7 @@ body {
   width: 100%;
   height: 600px;
   margin-top: 8.5rem;
-  background-color: #fcaa67c5;
+  background-color: rgba(128, 128, 0, 0.788);
   box-shadow: 0 0 15px #00000088;
 }
 #heroSecondContainer {
